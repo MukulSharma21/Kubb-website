@@ -242,3 +242,78 @@ header nav ul li .home{
     content: "";
     display: block;
 }
+.section-four{
+    margin-top: 60px;
+}
+.about-me img{
+    float: left;
+    padding-right: 15px;
+}
+.about-me{
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.about-me .one{
+    margin-left: 10px;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.about-me .two{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin-top: 20px
+}
+.about-me:after{
+     clear: both;
+    content: "";
+    display: block;
+}
+.section-four:after{
+     clear: both;
+    content: "";
+    display: block;
+}
+.services ul li h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 5px 0;
+    
+}
+.services{
+   margin-top: 20px;
+}
+.services h1{
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.first{
+    padding-left: 70px;
+    background: url("Img/kubb_62.jpg") no-repeat;
+    margin-bottom: 15px;
+}
+.first h4,.second h4 , .third h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.first p,.second p , .third p{
+    font-size: 16px;
+    line-height: 1.6em;
+    
+}
+.second{
+    padding-left: 70px;
+    background: url("Img/kubb_65.jpg") no-repeat;
+    margin-bottom: 15px;
+}
+.third{
+    padding-left: 70px;
+    background: url("Img/kubb_67.jpg") no-repeat;
+    margin-bottom: 15px;
+}
