@@ -136,7 +136,7 @@ header nav ul li .home{
     width: 94%;
     margin: 0 3%;
     text-align: center;
-    line-height: 1.6em;
+    line-height: 2em;
     font-size: 14px;
 }
 .section-two{
@@ -254,6 +254,10 @@ header nav ul li .home{
     float: left;
     margin-bottom: 30px;
 }
+.about-me h1{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
 .about-me .one{
     margin-left: 10px;
     overflow: hidden;
@@ -290,6 +294,7 @@ header nav ul li .home{
 .services h1{
     font-size: 26px;
     text-transform: capitalize;
+    margin-bottom: 20px;
 }
 .first{
     padding-left: 70px;
@@ -316,4 +321,54 @@ header nav ul li .home{
     padding-left: 70px;
     background: url("Img/kubb_67.jpg") no-repeat;
     margin-bottom: 15px;
+}
+footer{
+    margin-top: 60px;
+    background: #373737;
+    padding: 40px 10px;
+}
+footer ul{
+    float: left;
+    width: 25%;
+}
+footer ul li{
+    width: 80%;
+    color: rgba( 255, 255, 255, 0.892 );
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 15px 0;
+}
+footer:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+footer ul h4{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+#copyright{
+    width: 100%;
+    clear: both;
+    margin: 30px 0;
+    border-top: 10px solid black;
+    padding: 20px 0 0;
+    color: #dddddd;
+}
+.tw{
+    padding-left: 15px;
+    background: url("Img/twitter.jpg") no-repeat;
+}
+footer li.loc{
+    padding-left: 20px;
+    background: url("Img/location.jpg") no-repeat;
+}
+footer li.tel{
+    padding-left: 20px;
+    background: url("Img/telephone.jpg") no-repeat;
+}
+footer li.con{
+    padding-left: 20px;
+    background: url("Img/mess.jpg") no-repeat;
 }
