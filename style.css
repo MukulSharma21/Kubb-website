@@ -1,0 +1,123 @@
+*{
+    font-family: Trebuchet MS;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: #F9F9F9; 
+}
+#intro{
+    background: #110B0F;
+}
+#intro:after{
+     content: "";
+    clear: both;
+    display: block;
+}
+
+.wrapper{
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.logo:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+header{
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+body , ul ,li{
+    padding: 0;
+}
+p,li,h1,h2,h4,h3{
+    color: #4e4e4e;
+}
+header #intro{
+    padding: 20px 10px;
+}
+header .logo{
+    text-indent: -10000px;
+    background: url(Img/kubb_03.jpg) no-repeat;
+     width: 180px; 
+    height: 40px;
+    float: left;
+    margin: 0;
+}
+nav h6{
+    margin: 0;
+    text-indent: -10000px;
+}
+ul{
+    list-style-type: none;
+}
+header nav ul:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+header nav ul li{
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+header nav ul li .home{
+    color: #1ABB9C;
+}
+#lead-banner{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#lead-banner img{
+    width: 100%;
+    max-height: 500px;
+}
+.section-one h2{
+    margin: auto 10pc;
+    width: 70%;
+    font-size: 30px;
+    font-family: Courier;
+    text-align: center;
+    font-weight: 500;
+}
+.section-one h4{
+    width: 100%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+}
+.h3{
+    width: 50%;
+    text-align: center;
+    margin: 60px auto 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 2px inset gray;
+}
+.section-one ul li{
+    float: left;
+    width: 30%;
+    background: #fff;
+    border: 2px solid gray;
+}
+.section-one ul img{
+    width: 90%;
+    padding: 2px auto;
+}
+.section-one ul li:nth-child(2){
+    margin: 0 2%;
+}
