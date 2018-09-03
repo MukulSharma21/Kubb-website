@@ -182,3 +182,63 @@ header nav ul li .home{
     margin-left: 40%;
     border: 1px solid white;
 }
+.section-three{
+    margin-top: 60px;
+}
+.section-three .journal{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #444444;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.section-three ul li{
+    float: left;
+    width: 32%;
+    background: #fff;
+    border-bottom: 2px solid #8a8888;
+    border-top: 2px solid #8a8888;
+}
+.section-three ul li:nth-child(2){
+    margin: 0 2%;
+}
+.section-three ul li img{
+    width: 100%;
+}
+.section-three ul li h2{
+    font-size: 18px;
+    margin: 10px auto;
+    text-align: center;
+}
+.section-three ul li h4{
+    font-size: 13px;
+    color: #B6B6B6;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.section-three ul li p{
+    text-align: center;
+    color: #8f8888;
+    width: 96%;
+    margin: 10px 2%;
+    line-height: 1.6em;
+}
+.section-three ul li a{
+    text-decoration: underline;
+    color: gray;
+    text-decoration-color: #1e3ee0;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.section-three ul li h6{
+    float: right;
+    background: url("Img/heart.png") no-repeat;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.section-three ul:after{
+    clear: both;
+    content: "";
+    display: block;
+}
