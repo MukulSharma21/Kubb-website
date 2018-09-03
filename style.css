@@ -100,9 +100,9 @@ header nav ul li .home{
     text-align: center;
 }
 .h3{
-    width: 50%;
+    width: 30%;
     text-align: center;
-    margin: 60px auto 20px;
+    margin: 60px auto;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 20px;
@@ -110,14 +110,75 @@ header nav ul li .home{
 }
 .section-one ul li{
     float: left;
-    width: 30%;
+    width: 32%;
     background: #fff;
-    border: 2px solid gray;
+    border-top: 2px solid #E3E3E3;
+    border-bottom: 2px solid #E3E3E3;
 }
 .section-one ul img{
     width: 90%;
-    padding: 2px auto;
+    padding: 5%;
 }
 .section-one ul li:nth-child(2){
     margin: 0 2%;
+}
+.section-one ul:after{
+     clear: both;
+    content: "";
+    display: block;
+}
+.section-one ul li h3{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.section-one ul li p{
+    width: 94%;
+    margin: 0 3%;
+    text-align: center;
+    line-height: 1.6em;
+    font-size: 14px;
+}
+.section-two{
+    background: #2c2c2c;
+    padding: 60px 10px;
+    margin-top: 70px;
+}
+.section-two ul li{
+    float: left;
+    width: 19%;
+}
+.section-two ul:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.section-two ul li:nth-child(even){
+    margin: 0 1%;
+}
+.section-two ul li img{
+    width: 100%;
+    height: 12em;
+    transition: 1s;
+}
+.section-two h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #D5D5D5;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.section-two ul li img:hover{
+    transform: rotateY(360deg) scale(0.8);
+}
+.section-two a{
+    text-decoration: none;
+    color: #D5D5D1;
+    text-align: center;
+    width: 20%;
+    padding: 10px auto;
+    display: block;
+    margin-top: 40px;
+    margin-left: 40%;
+    border: 1px solid white;
 }
